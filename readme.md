@@ -1,7 +1,7 @@
 # Startup Institue Chicago: Labs
 
-Lab exercise for
-[*Startup Institue Chicago*](http://startupinstitute.com/chicago/)
+Lab exercises for
+[*Startup Institue - Chicago*](http://startupinstitute.com/chicago/)
 
 Covers:
 
