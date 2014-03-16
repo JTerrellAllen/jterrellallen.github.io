@@ -47,72 +47,10 @@ table {
   border-spacing: 0;
 }
 
-/*Header*/
+body {
+/*  padding: 20px;
+*/}
 
-h1 {
-  font-size: 80px;
-  text-transform: uppercase;
-  margin-bottom: -50px;
-  margin-left: 50px;
-}
-
-.top-nav {
-  border: 0 0 2px 0 solid #333;
-  margin: 5px 0 50px 0;
-  top: 65px;
-}
-
-.top-nav li {
-  float:right;
-  margin-right: 30px;
-  margin-top: 15px;
-}
-.top-nav li a {
-  color: #333;
-  text-decoration: none;
-  margin-bottom: 40px;
-}
-
-/*Aside*/
-
-.aside {
-  float: left;
-  margin: 50px;
-}
-
-.aside li {
-  font-weight: bold;
-  line-height: 2;
-}
-.aside li a {
-  color: #333;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-
-/*Articles*/
-
-.main-content {
-  width: 60%;
-  float: left;
-}
-
-.date {
-  font-size: 16px;
-  margin-top: 55px;
-  margin-bottom: 5px;
-}
-
-.title {
-  font-size: 32px;
-  text-transform: uppercase;
-}
-
-.post h2 {
-  margin-bottom: 10px;
-}
-
-.post p {
-  margin-bottom: 20px;
+h1, h2, h3 {
+  color: #ffffff;
 }
