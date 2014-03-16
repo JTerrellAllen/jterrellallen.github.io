@@ -1,4 +1,13 @@
 # Startup Institue Chicago: Labs
 
-This is a HTML to CSS lab exercise for
-[*Startup Institue Chicago*](http://startupinstitute.com/chicago/).
+Lab exercise for
+[*Startup Institue Chicago*](http://startupinstitute.com/chicago/)
+
+Covers:
+
+- HTML
+- CSS
+- Responsive Design
+- CSS3
+- JQuery
+- JavaScript
