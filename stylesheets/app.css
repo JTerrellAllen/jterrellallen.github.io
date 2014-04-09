@@ -9585,7 +9585,7 @@ p {
 /* line 63, ../scss/_overrides.scss */
 .about-section .subheading {
   margin-top: -40px;
-  color: #fff;
+  color: #e6e4e4;
 }
 
 /* line 68, ../scss/_overrides.scss */
@@ -9617,9 +9617,9 @@ p {
   padding: 20px;
 }
 
-/* line 88, ../scss/_overrides.scss */
-a:hover {
-  color: #ffffff;
+/* line 89, ../scss/_overrides.scss */
+.my-work {
+  margin-top: 40px;
 }
 
 /*
