@@ -1,0 +1,78 @@
+@mixin font-size($sizeValue: 1.6) {
+  font-size: ($sizeValue * 10) + px;
+  font-size: $sizeValue + rem;
+}
+
+
+// Typeface
+
+$main-typeface: 'Open Sans', sans-serif;
+// $secondary-typeface: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$secondary-typeface: 'Cantarell', sans-serif;
+
+$main-background: #a2b567;
+
+h1 {
+  font-family: $main-typeface;
+  text-transform: uppercase;
+
+}
+
+h2, h3, h4 {
+  font-family: $secondary-typeface;
+  font-weight: 300;
+}
+
+h2 {
+  @include font-size(3);
+}
+
+.position-title{
+  @include font-size(2);
+  font-weight: 200;
+}
+
+.section .portfolio-section, .skills-section, .contact-section {
+  margin-top: 40px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.about .heading {
+  text-transform: uppercase;
+}
+
+.subheading {
+  text-align: center;
+  font-weight: 300;
+}
+
+.about-section .subheading {
+  margin-top: -40px;
+  color: #fff;
+}
+
+// * About * //
+
+.about-section {
+  background: #A2B567;
+  padding: 20px;
+}
+  .about-text {
+    margin: 30px;
+    text-align: center;
+  }
+  .about-text p {
+    font-weight: 400;
+    line-height: 1.9;
+  }
+
+// * Portfolio * //
+
+.portfolio-section {
+  margin-top: 20px
+}
