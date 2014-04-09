@@ -1,10 +1,13 @@
-@mixin font-size($sizeValue: 1.6) {
-  font-size: ($sizeValue * 10) + px;
-  font-size: $sizeValue + rem;
+@mixin font-size($sizeValue: 12 ){
+  font-size: $sizeValue + px; // fallback for old browsers
+  font-size: (0.125 * $sizeValue) + rem;
 }
 
+@mixin line-height($heightValue: 12 ){
+	line-height: $heightValue + px; // fallback for old browsers
+	line-height: (0.125 * $heightValue) + rem;
+}
 
-// Typeface
 
 $main-typeface: 'Open Sans', sans-serif;
 // $secondary-typeface: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -15,7 +18,7 @@ $main-background: #a2b567;
 h1 {
   font-family: $main-typeface;
   text-transform: uppercase;
-
+  @include font-size(30);
 }
 
 h2, h3, h4 {
@@ -24,12 +27,18 @@ h2, h3, h4 {
 }
 
 h2 {
-  @include font-size(3);
+  @include font-size(20);
 }
 
+
 .position-title{
-  @include font-size(2);
+  @include font-size(25);
   font-weight: 200;
+}
+
+p {
+  @include font-size(12);
+  @include line-height (16);
 }
 
 .section .portfolio-section, .skills-section, .contact-section {
@@ -56,8 +65,6 @@ h2 {
   color: #fff;
 }
 
-// * About * //
-
 .about-section {
   background: #A2B567;
   padding: 20px;
@@ -67,12 +74,17 @@ h2 {
     text-align: center;
   }
   .about-text p {
-    font-weight: 400;
-    line-height: 1.9;
+    font-weight: 300;
   }
 
-// * Portfolio * //
-
-.portfolio-section {
-  margin-top: 20px
+.social-profiles {
+  text-align: center;
 }
+  .social-style {
+    font-size: 50px;
+    color: #e6e4e4;
+    padding: 20px;
+  }
+  a:hover {
+    color: #ffffff;
+  }
