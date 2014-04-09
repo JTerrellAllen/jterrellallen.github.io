@@ -9612,7 +9612,7 @@ p {
 
 /* line 83, ../scss/_overrides.scss */
 .social-style {
-  font-size: 50px;
+  font-size: 050px;
   color: #e6e4e4;
   padding: 20px;
 }
@@ -9620,6 +9620,17 @@ p {
 /* line 89, ../scss/_overrides.scss */
 .my-work {
   margin-top: 40px;
+}
+
+/* line 93, ../scss/_overrides.scss */
+.footer {
+  margin-top: 40px;
+}
+
+/* line 97, ../scss/_overrides.scss */
+footer p, li {
+  font-size: 7px;
+  font-size: 0.875rem;
 }
 
 /*

@@ -81,11 +81,19 @@ p {
   text-align: center;
 }
   .social-style {
-    font-size: 50px;
+    font-size: 050px;
     color: #e6e4e4;
     padding: 20px;
   }
 
 .my-work {
   margin-top: 40px;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
+footer p, li {
+  @include font-size(7);
 }
