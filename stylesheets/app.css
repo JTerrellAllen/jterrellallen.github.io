@@ -9645,28 +9645,28 @@ p {
   margin-bottom: 30px;
 }
 
-/* line 110, ../scss/_overrides.scss */
+/* line 111, ../scss/_overrides.scss */
 .my-work {
   margin-top: 20px;
 }
 
-/* line 113, ../scss/_overrides.scss */
+/* line 114, ../scss/_overrides.scss */
 .my-work p {
   font-weight: 300;
 }
 
-/* line 116, ../scss/_overrides.scss */
+/* line 117, ../scss/_overrides.scss */
 .my-work img {
   margin-top: 50px;
 }
 
-/* line 120, ../scss/_overrides.scss */
+/* line 121, ../scss/_overrides.scss */
 .footer {
   margin-top: 40px;
   text-align: center;
 }
 
-/* line 125, ../scss/_overrides.scss */
+/* line 126, ../scss/_overrides.scss */
 footer p, li {
   font-size: 7px;
   font-size: 0.875rem;
