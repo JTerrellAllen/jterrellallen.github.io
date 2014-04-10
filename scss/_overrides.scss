@@ -30,6 +30,14 @@ h2 {
   @include font-size(20);
 }
 
+h3 {
+  @include font-size(15);
+}
+
+h4 {
+  @include font-size(10);
+}
+
 
 .position-title{
   @include font-size(25);
@@ -86,12 +94,32 @@ p {
     padding: 20px;
   }
 
-.my-work {
-  margin-top: 40px;
+.heading {
+  text-transform: uppercase;
 }
+
+.design-description h3 {
+  text-align: center;
+}
+
+.text-descrpt {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.my-work {
+  margin-top: 20px;
+}
+  .my-work p {
+    font-weight: 300;
+  }
+  .my-work img {
+    margin-top: 50px;
+  }
 
 .footer {
   margin-top: 40px;
+  text-align: center;
 }
 
 footer p, li {
