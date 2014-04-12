@@ -9524,46 +9524,60 @@ th.hide-for-touch {
   display: table-cell !important;
 }
 
-/* line 18, ../scss/_overrides.scss */
+/* line 17, ../scss/_overrides.scss */
 h1 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
   font-size: 30px;
   font-size: 3.75rem;
 }
 
-/* line 24, ../scss/_overrides.scss */
+/* line 23, ../scss/_overrides.scss */
 h2, h3, h4 {
-  font-family: "Cantarell", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 
-/* line 29, ../scss/_overrides.scss */
+/* line 28, ../scss/_overrides.scss */
 h2 {
   font-size: 20px;
   font-size: 2.5rem;
 }
 
-/* line 33, ../scss/_overrides.scss */
+/* line 32, ../scss/_overrides.scss */
 h3 {
   font-size: 15px;
   font-size: 1.875rem;
 }
 
-/* line 37, ../scss/_overrides.scss */
+/* line 36, ../scss/_overrides.scss */
 h4 {
   font-size: 10px;
   font-size: 1.25rem;
 }
 
-/* line 42, ../scss/_overrides.scss */
+/* line 40, ../scss/_overrides.scss */
+.image {
+  position: relative;
+  width: 100%;
+}
+
+/* line 44, ../scss/_overrides.scss */
+.image h1 {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100;
+}
+
+/* line 50, ../scss/_overrides.scss */
 .position-title {
   font-size: 25px;
   font-size: 3.125rem;
   font-weight: 200;
 }
 
-/* line 47, ../scss/_overrides.scss */
+/* line 55, ../scss/_overrides.scss */
 p {
   font-size: 12px;
   font-size: 1.5rem;
@@ -9571,102 +9585,102 @@ p {
   line-height: 2rem;
 }
 
-/* line 52, ../scss/_overrides.scss */
+/* line 60, ../scss/_overrides.scss */
 .section .portfolio-section, .skills-section, .contact-section {
   margin-top: 40px;
 }
 
-/* line 56, ../scss/_overrides.scss */
+/* line 64, ../scss/_overrides.scss */
 .heading {
   text-align: center;
   margin-bottom: 40px;
   font-weight: 600;
 }
 
-/* line 62, ../scss/_overrides.scss */
+/* line 70, ../scss/_overrides.scss */
 .about .heading {
   text-transform: uppercase;
 }
 
-/* line 66, ../scss/_overrides.scss */
+/* line 74, ../scss/_overrides.scss */
 .subheading {
   text-align: center;
   font-weight: 300;
 }
 
-/* line 71, ../scss/_overrides.scss */
+/* line 79, ../scss/_overrides.scss */
 .about-section .subheading {
   margin-top: -40px;
   color: #e6e4e4;
 }
 
-/* line 76, ../scss/_overrides.scss */
+/* line 84, ../scss/_overrides.scss */
 .about-section {
   background: #A2B567;
   padding: 20px;
 }
 
-/* line 80, ../scss/_overrides.scss */
+/* line 88, ../scss/_overrides.scss */
 .about-text {
   margin: 30px;
   text-align: center;
 }
 
-/* line 84, ../scss/_overrides.scss */
+/* line 92, ../scss/_overrides.scss */
 .about-text p {
   font-weight: 300;
 }
 
-/* line 88, ../scss/_overrides.scss */
+/* line 96, ../scss/_overrides.scss */
 .social-profiles {
   text-align: center;
 }
 
-/* line 91, ../scss/_overrides.scss */
+/* line 99, ../scss/_overrides.scss */
 .social-style {
   font-size: 050px;
   color: #e6e4e4;
   padding: 20px;
 }
 
-/* line 97, ../scss/_overrides.scss */
+/* line 105, ../scss/_overrides.scss */
 .heading {
   text-transform: uppercase;
 }
 
-/* line 101, ../scss/_overrides.scss */
+/* line 109, ../scss/_overrides.scss */
 .design-description h3 {
   text-align: center;
 }
 
-/* line 105, ../scss/_overrides.scss */
+/* line 113, ../scss/_overrides.scss */
 .text-descrpt {
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
-/* line 111, ../scss/_overrides.scss */
+/* line 119, ../scss/_overrides.scss */
 .my-work {
   margin-top: 20px;
 }
 
-/* line 114, ../scss/_overrides.scss */
+/* line 122, ../scss/_overrides.scss */
 .my-work p {
   font-weight: 300;
 }
 
-/* line 117, ../scss/_overrides.scss */
+/* line 125, ../scss/_overrides.scss */
 .my-work img {
   margin-top: 50px;
 }
 
-/* line 121, ../scss/_overrides.scss */
+/* line 129, ../scss/_overrides.scss */
 .footer {
   margin-top: 40px;
   text-align: center;
 }
 
-/* line 126, ../scss/_overrides.scss */
+/* line 134, ../scss/_overrides.scss */
 footer p, li {
   font-size: 7px;
   font-size: 0.875rem;
