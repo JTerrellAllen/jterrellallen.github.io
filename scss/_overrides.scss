@@ -17,20 +17,20 @@ $main-background: #a2b567;
 h1 {
   font-family: $main-typeface;
   text-transform: uppercase;
-  @include font-size(30);
+  @include font-size(20);
 }
 
-h2, h3, h4 {
+h2, h3, h4, p {
   font-family: $secondary-typeface;
   font-weight: 300;
 }
 
 h2 {
-  @include font-size(20);
+  @include font-size(15);
 }
 
 h3 {
-  @include font-size(15);
+  @include font-size(10);
 }
 
 h4 {
@@ -38,23 +38,26 @@ h4 {
 }
 
 p {
-  color: #042E04;
+  @include font-size(9);
+  color: #333333;
 }
 
-.image {
-  position: relative;
-  width: 100% /* for IE 6 */
+.centered {
+  text-align: center;
 }
-  .image h1 {
-    position: absolute;
-    top: 200px;
-    left: 0;
-    width: 100;
+
+.heading {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+  .heading h1 {
+    letter-spacing: 0.25rem;
   }
-.position-title{
-  @include font-size(25);
-  font-weight: 200;
-}
+  .heading h3 {
+    color: #B5BAC7;
+    margin-top: -10px;
+    letter-spacing: 0.25rem;
+  }
 
 p {
   @include font-size(12);
@@ -73,6 +76,7 @@ p {
 
 .about .heading {
   text-transform: uppercase;
+  font-weight: 700;
 }
 
 .subheading {
@@ -86,7 +90,7 @@ p {
 }
 
 .about-section {
-  background: #A2B567;
+  // background: #A2B567;
   padding: 20px;
 }
   .about-text {
@@ -102,7 +106,7 @@ p {
 }
   .social-style {
     font-size: 050px;
-    color: #e6e4e4;
+    color: #7a7676;
     padding: 20px;
   }
 
@@ -123,9 +127,6 @@ p {
 .my-work {
   margin-top: 20px;
 }
-  .my-work p {
-    font-weight: 300;
-  }
   .my-work img {
     margin-top: 50px;
   }

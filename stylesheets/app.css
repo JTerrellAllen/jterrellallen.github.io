@@ -9528,26 +9528,26 @@ th.hide-for-touch {
 h1 {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
-  font-size: 30px;
-  font-size: 3.75rem;
+  font-size: 20px;
+  font-size: 2.5rem;
 }
 
 /* line 23, ../scss/_overrides.scss */
-h2, h3, h4 {
+h2, h3, h4, p {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 
 /* line 28, ../scss/_overrides.scss */
 h2 {
-  font-size: 20px;
-  font-size: 2.5rem;
+  font-size: 15px;
+  font-size: 1.875rem;
 }
 
 /* line 32, ../scss/_overrides.scss */
 h3 {
-  font-size: 15px;
-  font-size: 1.875rem;
+  font-size: 10px;
+  font-size: 1.25rem;
 }
 
 /* line 36, ../scss/_overrides.scss */
@@ -9558,31 +9558,35 @@ h4 {
 
 /* line 40, ../scss/_overrides.scss */
 p {
-  color: #042E04;
+  font-size: 9px;
+  font-size: 1.125rem;
+  color: #333333;
 }
 
-/* line 44, ../scss/_overrides.scss */
-.image {
-  position: relative;
-  width: 100%;
+/* line 45, ../scss/_overrides.scss */
+.centered {
+  text-align: center;
 }
 
-/* line 48, ../scss/_overrides.scss */
-.image h1 {
-  position: absolute;
-  top: 200px;
-  left: 0;
-  width: 100;
+/* line 49, ../scss/_overrides.scss */
+.heading {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
-/* line 54, ../scss/_overrides.scss */
-.position-title {
-  font-size: 25px;
-  font-size: 3.125rem;
-  font-weight: 200;
+/* line 53, ../scss/_overrides.scss */
+.heading h1 {
+  letter-spacing: 0.25rem;
 }
 
-/* line 59, ../scss/_overrides.scss */
+/* line 56, ../scss/_overrides.scss */
+.heading h3 {
+  color: #B5BAC7;
+  margin-top: -10px;
+  letter-spacing: 0.25rem;
+}
+
+/* line 62, ../scss/_overrides.scss */
 p {
   font-size: 12px;
   font-size: 1.5rem;
@@ -9590,102 +9594,97 @@ p {
   line-height: 2rem;
 }
 
-/* line 64, ../scss/_overrides.scss */
+/* line 67, ../scss/_overrides.scss */
 .section .portfolio-section, .skills-section, .contact-section {
   margin-top: 40px;
 }
 
-/* line 68, ../scss/_overrides.scss */
+/* line 71, ../scss/_overrides.scss */
 .heading {
   text-align: center;
   margin-bottom: 40px;
   font-weight: 600;
 }
 
-/* line 74, ../scss/_overrides.scss */
+/* line 77, ../scss/_overrides.scss */
 .about .heading {
   text-transform: uppercase;
+  font-weight: 700;
 }
 
-/* line 78, ../scss/_overrides.scss */
+/* line 82, ../scss/_overrides.scss */
 .subheading {
   text-align: center;
   font-weight: 300;
 }
 
-/* line 83, ../scss/_overrides.scss */
+/* line 87, ../scss/_overrides.scss */
 .about-section .subheading {
   margin-top: -40px;
   color: #e6e4e4;
 }
 
-/* line 88, ../scss/_overrides.scss */
+/* line 92, ../scss/_overrides.scss */
 .about-section {
-  background: #A2B567;
   padding: 20px;
 }
 
-/* line 92, ../scss/_overrides.scss */
+/* line 96, ../scss/_overrides.scss */
 .about-text {
   margin: 30px;
   text-align: center;
 }
 
-/* line 96, ../scss/_overrides.scss */
+/* line 100, ../scss/_overrides.scss */
 .about-text p {
   font-weight: 300;
 }
 
-/* line 100, ../scss/_overrides.scss */
+/* line 104, ../scss/_overrides.scss */
 .social-profiles {
   text-align: center;
 }
 
-/* line 103, ../scss/_overrides.scss */
+/* line 107, ../scss/_overrides.scss */
 .social-style {
   font-size: 050px;
-  color: #e6e4e4;
+  color: #7a7676;
   padding: 20px;
 }
 
-/* line 109, ../scss/_overrides.scss */
+/* line 113, ../scss/_overrides.scss */
 .heading {
   text-transform: uppercase;
 }
 
-/* line 113, ../scss/_overrides.scss */
+/* line 117, ../scss/_overrides.scss */
 .design-description h3 {
   text-align: center;
 }
 
-/* line 117, ../scss/_overrides.scss */
+/* line 121, ../scss/_overrides.scss */
 .text-descrpt {
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
-/* line 123, ../scss/_overrides.scss */
+/* line 127, ../scss/_overrides.scss */
 .my-work {
   margin-top: 20px;
 }
 
-/* line 126, ../scss/_overrides.scss */
-.my-work p {
-  font-weight: 300;
-}
-
-/* line 129, ../scss/_overrides.scss */
+/* line 130, ../scss/_overrides.scss */
 .my-work img {
   margin-top: 50px;
 }
 
-/* line 133, ../scss/_overrides.scss */
+/* line 134, ../scss/_overrides.scss */
 .footer {
   margin-top: 40px;
   text-align: center;
 }
 
-/* line 138, ../scss/_overrides.scss */
+/* line 139, ../scss/_overrides.scss */
 footer p {
   font-size: 7px;
   font-size: 0.875rem;
