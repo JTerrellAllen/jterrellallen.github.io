@@ -37,6 +37,10 @@ h4 {
   @include font-size(10);
 }
 
+p {
+  color: #042E04;
+}
+
 .image {
   position: relative;
   width: 100% /* for IE 6 */
@@ -131,6 +135,7 @@ p {
   text-align: center;
 }
 
-footer p, li {
+footer p {
   @include font-size(7);
+  color: #B5BAC7;
 }
