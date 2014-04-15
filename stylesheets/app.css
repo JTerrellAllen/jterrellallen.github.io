@@ -9635,28 +9635,21 @@ p {
 /* line 102, ../scss/_overrides.scss */
 .latest-work h3 {
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   color: #7a7676;
   padding: 20px;
-  -webkit-transition: all 950ms ease;
-  -o-transition: all 950ms ease;
-  transition: all 950ms ease;
+  text-transform: uppercase;
 }
 
-/* line 112, ../scss/_overrides.scss */
-.latest-work h3:hover {
-  color: rgba(26, 52, 110, 0.67);
-}
-
-/* line 116, ../scss/_overrides.scss */
+/* line 111, ../scss/_overrides.scss */
 .social-profiles {
   text-align: center;
 }
 
-/* line 119, ../scss/_overrides.scss */
+/* line 114, ../scss/_overrides.scss */
 .social-style {
-  font-size: 50px;
+  font-size: 30px;
   color: #7a7676;
   padding: 20px;
   text-shadow: 1px 4px 6px #FFF, 0 0 0 #000, 1px 4px 6px #FFF;
@@ -9665,50 +9658,50 @@ p {
   transition: all 950ms ease;
 }
 
-/* line 128, ../scss/_overrides.scss */
+/* line 123, ../scss/_overrides.scss */
 .social-style:hover {
   color: rgba(26, 52, 110, 0.67);
 }
 
-/* line 132, ../scss/_overrides.scss */
+/* line 127, ../scss/_overrides.scss */
 .heading {
   text-transform: uppercase;
 }
 
-/* line 136, ../scss/_overrides.scss */
+/* line 131, ../scss/_overrides.scss */
 .design-description h3 {
   text-align: center;
 }
 
-/* line 140, ../scss/_overrides.scss */
+/* line 135, ../scss/_overrides.scss */
 .text-descrpt {
   margin-top: 20px;
   margin-bottom: 30px;
 }
 
-/* line 145, ../scss/_overrides.scss */
+/* line 140, ../scss/_overrides.scss */
 .my-work {
   margin-top: 20px;
 }
 
-/* line 148, ../scss/_overrides.scss */
+/* line 143, ../scss/_overrides.scss */
 .my-work img {
   margin-top: 50px;
 }
 
-/* line 152, ../scss/_overrides.scss */
+/* line 147, ../scss/_overrides.scss */
 figcaption {
   margin-top: 10px;
   text-align: center;
 }
 
-/* line 158, ../scss/_overrides.scss */
+/* line 153, ../scss/_overrides.scss */
 .footer {
   margin-top: 40px;
   text-align: center;
 }
 
-/* line 163, ../scss/_overrides.scss */
+/* line 158, ../scss/_overrides.scss */
 footer p {
   font-size: 7px;
   font-size: 0.875rem;

@@ -101,23 +101,18 @@ p {
 
 .latest-work h3 {
   text-align: center;
-  margin-top: 10px;
-  margin-bottom: 40px;
+  margin-top: 20px;
+  margin-bottom: 50px;
   color: #7a7676;
   padding: 20px;
-  -webkit-transition: all 950ms ease;
-  -o-transition: all 950ms ease;
-  transition: all 950ms ease;
+  text-transform: uppercase;
 }
-  .latest-work h3:hover {
-    color:rgba(26, 52, 110, 0.67);
-  }
 
 .social-profiles {
   text-align: center;
 }
   .social-style {
-    font-size: 50px;
+    font-size: 30px;
     color: #7a7676;
     padding: 20px;
     text-shadow: 1px 4px 6px #FFF, 0 0 0 #000, 1px 4px 6px #FFF;
