@@ -9619,7 +9619,7 @@ p {
 
 /* line 92, ../scss/_overrides.scss */
 .about-text {
-  margin: 0 80px 0 80px;
+  margin: 20px 80px 20px 80px;
 }
 
 /* line 95, ../scss/_overrides.scss */
@@ -9695,13 +9695,13 @@ figcaption {
   text-align: center;
 }
 
-/* line 153, ../scss/_overrides.scss */
+/* line 157, ../scss/_overrides.scss */
 .footer {
   margin-top: 40px;
   text-align: center;
 }
 
-/* line 158, ../scss/_overrides.scss */
+/* line 162, ../scss/_overrides.scss */
 footer p {
   font-size: 7px;
   font-size: 0.875rem;
