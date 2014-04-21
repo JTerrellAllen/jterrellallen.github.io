@@ -99,9 +99,9 @@ p {
     font-weight: bold;
   }
 
-.latest-work h3 {
+.latest-work .heading {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 50px;
   color: #7a7676;
   padding: 20px;
@@ -144,11 +144,37 @@ p {
     margin-top: 50px;
   }
 
+.project-title {
+  margin-top: 20px;
+  color: #383232;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.button.project {
+  margin-top: 20px;
+}
+
+.project {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 figcaption {
   margin-top: 10px;
   text-align: center;
 }
 
+
+hr.project-divide {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 50%;
+  margin: 0 auto;
+}
 
 
 

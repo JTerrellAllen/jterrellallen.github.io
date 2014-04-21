@@ -9633,9 +9633,9 @@ p {
 }
 
 /* line 102, ../scss/_overrides.scss */
-.latest-work h3 {
+.latest-work .heading {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 40px;
   margin-bottom: 50px;
   color: #7a7676;
   padding: 20px;
@@ -9690,18 +9690,48 @@ p {
 }
 
 /* line 147, ../scss/_overrides.scss */
+.project-title {
+  margin-top: 20px;
+  color: #383232;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* line 155, ../scss/_overrides.scss */
+.button.project {
+  margin-top: 20px;
+}
+
+/* line 159, ../scss/_overrides.scss */
+.project {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 164, ../scss/_overrides.scss */
 figcaption {
   margin-top: 10px;
   text-align: center;
 }
 
-/* line 157, ../scss/_overrides.scss */
+/* line 170, ../scss/_overrides.scss */
+hr.project-divide {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* line 183, ../scss/_overrides.scss */
 .footer {
   margin-top: 40px;
   text-align: center;
 }
 
-/* line 162, ../scss/_overrides.scss */
+/* line 188, ../scss/_overrides.scss */
 footer p {
   font-size: 7px;
   font-size: 0.875rem;
